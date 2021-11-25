@@ -28,7 +28,7 @@ let Dformat = time.format('YYYY/MM/DD ')
 
 console.log(Tformat)
 console.log(Dformat)
-let data = document.querySelector('.chronos').innerHTML = Tformat;
+ document.querySelector('.chronos').innerHTML = Tformat;
 /// THIS IS THE  DARTE JS EVENT
 
 
