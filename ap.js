@@ -23,7 +23,7 @@ window.onload = function() { // effect works on we page reloads
 
 // intergrating the moment() js library
 let time = moment() // 10:06:10 AM
-let Tformat = time.format('hh:mm:ss ')
+let Tformat = time.format('HH:mm:ss ') // TIEM FORMAT IN MILITARY TIME
 let Dformat = time.format('YYYY/MM/DD ')
 
 console.log(Tformat)
