@@ -65,8 +65,6 @@ body {
     text-align: center;
     justify-content: center;
     position: relative;
-    paddinG: 0;
-    margin-bottom: 1rem;
     left: 50%;
     top: -1%;
     transform: translate(-50%, -2%);
