@@ -65,13 +65,15 @@ body {
     text-align: center;
     justify-content: center;
     position: relative;
+    paddinG: 0;
+    margin-bottom: 1rem;
     left: 50%;
-    top: -3%;
+    top: -1%;
     transform: translate(-50%, -2%);
 }
 
 .time>h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
