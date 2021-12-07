@@ -15,7 +15,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Cyber', sans-serif;
-    background: linear-gradient(90deg, #fff 70%, #fefefe 70%), #fff700;
+    background: #fff    ;
 }
 
 body .cybr-btn+.cybr-btn {
