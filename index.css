@@ -15,7 +15,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Cyber', sans-serif;
-    background: #fff    ;
+    background: #000    ;
 }
 
 body .cybr-btn+.cybr-btn {
