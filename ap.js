@@ -1,12 +1,13 @@
-/* time javascript simple script */
-
-
-
-
-
-
-
-
+/* time javascript simple script  with interval initialised*/
+ setInterval(()=>{
+     // intergrating the moment() js library
+let time = moment() // 10:06:10 AM
+ // moments Real time
+ document.querySelector('.chronos').innerHTML = time.format('HH:mm:ss ') ;
+/// moments date 
+document.querySelector('.date').innerHTML =  time.format('YYYY/MM/DD ')
+     
+ } , 1000)
 /* background random colro change */
 window.onload = function() { // effect works on we page reloads
     const red = Math.floor(Math.random() * 256);
@@ -21,16 +22,6 @@ window.onload = function() { // effect works on we page reloads
 
 }
 
-// intergrating the moment() js library
-let time = moment() // 10:06:10 AM
-let Tformat = time.format('HH:mm:ss ') // TIEM FORMAT IN MILITARY TIME
-let Dformat = time.format('YYYY/MM/DD ')
-
-console.log(Tformat)
-console.log(Dformat)
- document.querySelector('.chronos').innerHTML = Tformat;
-/// THIS IS THE  DARTE JS EVENT
 
 
 
-document.querySelector('.date').innerHTML = Dformat
