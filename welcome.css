@@ -36,7 +36,6 @@ body {
 
 
 /* .ellipis{
-
 } */
 
 .image-time {
@@ -44,7 +43,7 @@ body {
     margin: auto;
     display: block;
     background-color: rgb(110, 110, 110);
-    height: 340px;
+    height: 350px;
 }
 
 .image {
@@ -66,12 +65,12 @@ body {
     justify-content: center;
     position: relative;
     left: 50%;
-    top: -3%;
+    top: 2%;
     transform: translate(-50%, -2%);
 }
 
 .time>h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
