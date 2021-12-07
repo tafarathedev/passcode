@@ -1,13 +1,13 @@
-/* time javascript simple script  with interval initialised*/
- setInterval(()=>{
-     // intergrating the moment() js library
-let time = moment() // 10:06:10 AM
- // moments Real time
- document.querySelector('.chronos').innerHTML = time.format('HH:mm:ss ') ;
-/// moments date 
-document.querySelector('.date').innerHTML =  time.format('YYYY/MM/DD ')
-     
- } , 1000)
+// intergrate the javsacript  setinterval 
+
+setInterval(() => {
+    let time = moment() // 10:06:10 AM
+        //  moments time 
+    document.querySelector('.chronos').innerHTML = time.format('HH:mm:ss ');
+    /// moments date
+    document.querySelector('.date').innerHTML = time.format('YYYY/MM/d ')
+}, 1000);
+
 /* background random colro change */
 window.onload = function() { // effect works on we page reloads
     const red = Math.floor(Math.random() * 256);
@@ -21,7 +21,3 @@ window.onload = function() { // effect works on we page reloads
     //   document.body.style.background = bgColor;
 
 }
-
-
-
-
