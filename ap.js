@@ -8,16 +8,13 @@ setInterval(() => {
     document.querySelector('.date').innerHTML = time.format('YYYY/MM/d ')
 }, 1000);
 
-/* background random colro change */
-window.onload = function() { // effect works on we page reloads
+/* background random color change */
+window.onload = function() {
     const red = Math.floor(Math.random() * 256);
     const green = Math.floor(Math.random() * 256);
     const blue = Math.floor(Math.random() * 256);
     // using inline variable
     document.querySelector('.image-time').style.background = "rgb(" + red + ", " + green + ", " + blue + ")";
-    // using local variable
-    // uncomment to see how it works
-    // let bgColor = "rgb(" + red + ", " + green + ", " + blue + ")";
-    //   document.body.style.background = bgColor;
+    
 
 }
