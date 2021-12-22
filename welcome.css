@@ -1,4 +1,15 @@
-
+.image {
+    position: relative;
+    left: 50%;
+    top: 19%;
+    transform: translate(-50%, -22%);
+    background-image: url('./images/welcome.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 24rem;
+    height: 220px;
+  }
 @media screen and (max-width: 900px) {
   
     .image {
