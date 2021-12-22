@@ -46,18 +46,6 @@ body {
     height: 350px;
 }
 
-.image {
-    position: relative;
-    left: 50%;
-    top: 19%;
-    transform: translate(-50%, -22%);
-    background-image: url('./images/exit.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 24rem;
-    height: 230px;
-}
 
 .time {
     align-items: center;
@@ -153,30 +141,4 @@ body {
     height: 39px;
     padding-top: 8px;
     padding-bottom: 8px;
-}
-@media screen and (max-width: 400px) {
-  
-.image {
-  position: relative;
-  left: 50%;
-  top: 19%;
-  transform: translate(-50%, -22%);
-  background-image: url('./images/exit.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 20rem;
-  height: 200px;
-}
-
-.time {
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  position: relative;
-  left: 50%;
-  top: 1.5%;
-  transform: translate(-50%, -2%);
-}
-
 }
